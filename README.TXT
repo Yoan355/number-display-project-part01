@@ -46,9 +46,19 @@ modifying code.
 
 
 
+6: When calling increment on minutes, I should be counting every time I click
+increment until I get to 60,then I will know the numbers have rolled over to
+to 0 and then I should call increment on the hours object to make the clock
+advance by 1 hour.
 
 
 
+8: After setting the value to a number less than the limit
+for example 2,it's getValue call returns 2.After we setValue
+to a number greater than the limit for example 11,
+calling it's getValue still returns 3.Since was greater
+than the original limit of 2, the method ignored the input
+and kept the original value.It's an abstraction.
 
 
 
