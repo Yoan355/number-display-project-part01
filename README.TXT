@@ -20,24 +20,25 @@ call the object's methods, such as increment and setValue.
 
 
 1: Class diagrams are shown 
-as blueprints of classes and their relationships
-while object diagrams are shown as little pictures of the object on the object bench.
+as blueprints of classes and their relationships,they are persistent,they
+are saved
+while object diagrams are shown as little pictures of the object on the object
+ bench.They are not saved.
 Class diagrams focus on the structure of classes such as attributes or methods
  while object diagrams focus on object values.For example LabClass has a method that it can call named
 enrollStudent (class diagram) and lab1 enrolls student1, student2, student3 (object diagram)
 
 
 
-2: In real life applications, a class diagram can change when
-developers discover better alternatives to their code,when fixing bugs during 
+2: In real life applications, a class diagram can change when you create classes,
+when fixing bugs during 
 testing, or when stakeholders communicate with developers ordering
 them to modify their structure to their liking.
 
 
 
 3: An object diagram can change after we run our system,they can be destroyed
-or modified.Same as class diagrams,when debugging we can see them change and when
-modifying code.
+and when we change relationships and create new objects.
 
 
 
@@ -56,12 +57,14 @@ advance by 1 hour.
 8: After setting the value to a number less than the limit
 for example 2,it's getValue call returns 2.After we setValue
 to a number greater than the limit for example 11,
-calling it's getValue still returns 3.Since was greater
+calling it's getValue still returns 2.Since it was greater
 than the original limit of 2, the method ignored the input
 and kept the original value.It's an abstraction.
 
 
 
+10: Error: non-static method getValue() cannot be referenced from a static context
+
+
   
 
-2:
