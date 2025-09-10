@@ -67,4 +67,5 @@ and kept the original value.It's an abstraction.
 
 
   
-
+11: Error: '.class' expected. We need to identify the class to
+be able to call the method setValue. 
