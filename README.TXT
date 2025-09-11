@@ -69,3 +69,26 @@ and kept the original value.It's an abstraction.
   
 11: Error: '.class' expected. We need to identify the class to
 be able to call the method setValue. 
+
+
+
+
+13: The only valid parameter is 0 because it does work for 0>=0
+but noy for 0 > 0.
+
+
+
+14: Changing && (AND) to || (OR) makes our conditions much looser.We do not 
+have a small  amount of choices for our replacementValue anymore 
+(replacementValue>= and replacement value < limit) we are basically saying 
+as long as both aren't negative and really big numbers over the limit it 
+will be set the field.
+
+
+
+15: 2 & 5.
+
+
+
+16: (a && b) || (!a && !b)
+
