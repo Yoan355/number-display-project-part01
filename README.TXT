@@ -92,3 +92,32 @@ will be set the field.
 
 16: (a && b) || (!a && !b)
 
+
+17: a ^ b
+
+
+
+18: When I called the setValue method with the value 100,then called
+getDisplayValue,it showed me 100 too.No it was not a two digit
+string.
+
+
+
+
+
+19: There is no difference in the result of writing.
+
+
+
+
+20: Yes they did suprise me,I thought both would give the same
+awnser except for the placement of the word cat.Java reads expressions left to right and as soon as it sees a string,
+ it switches to string mode.So in expression 1 we see that math happens first, then string.
+ In Expression 2, string happens first so everything gets glued together as text.
+
+
+
+
+
+
+
